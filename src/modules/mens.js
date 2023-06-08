@@ -31,7 +31,8 @@ const logInSchema = new mongoose.Schema({
     newPassword: {
         type: String,
         require: true
-    }
+    },
+    status:{type:Boolean,default:true}
 
 });
 
